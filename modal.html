@@ -1,0 +1,84 @@
+<html>
+   <head>
+      <link rel="stylesheet" href="dist/css/bootstrap.css"/>  
+      <link rel="stylesheet" href="icon/css/all.css"/>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  <script src="dist/js/bootstrap.min.js"></script>
+	  <style>
+	     body{padding-top:55px;}
+	  </style>
+   </head>
+   <body>
+     <center>
+	     <button class="btn btn-primary" data-toggle="modal" data-target="#userlogin">Login</button>
+	     <button class="btn btn-primary" data-toggle="modal" data-target="#register">Register</button>
+	 </center>
+          <!-- Modal Login Starts-->
+ <div class="modal fade" id="userlogin" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">User Login</h5>
+        <button type="button" class="btn-close btn btn-danger btn-sm" data-dismiss="modal" aria-label="Close">x</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+		   <label> e-Mail Id</label>
+		   <input type="text" class="form-control"/>
+		</div>
+		<div class="form-group">
+		   <label> Password</label>
+		   <input type="text" class="form-control"/>
+		</div>
+      </div>
+      <div class="modal-footer">
+	    <button type="button" class="btn btn-primary">Go Login</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> 
+      
+	  <hr/>
+	  <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#register"> I Am  new user</a>
+	  </div>
+    </div>
+  </div>
+</div>
+          <!-- Modal Login ends-->
+		  
+		  <!--register modal starts-->
+ <div class="modal fade" id="register" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">User Login</h5>
+        <button type="button" class="btn-close btn btn-danger btn-sm" data-dismiss="modal" aria-label="Close">x</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+		   <label>Full Name</label>
+		   <input type="text" class="form-control"/>
+		</div>
+		<div class="form-group">
+		   <label> e-Mail Id</label>
+		   <input type="text" class="form-control"/>
+		</div>
+		<div class="form-group">
+		   <label> Password</label>
+		   <input type="text" class="form-control"/>
+		</div>
+		<div class="form-group">
+		   <label> Contact No</label>
+		   <input type="text" class="form-control"/>
+		</div>
+      </div>
+      <div class="modal-footer">
+	    <button type="button" class="btn btn-primary">Register</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      
+	  <hr/>
+	  <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#userlogin"> I Have Account</a>
+	  </div>
+    </div>
+  </div>
+</div>
+		  <!--register modal starts-->
+   </body>
+</html>
